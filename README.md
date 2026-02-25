@@ -202,7 +202,4 @@ For technical support or questions:
 - Email: harerimanapacifique95@gmail.com
 - GitHub: [@Pacifique16](https://github.com/Pacifique16)
 
----
 
-**Last Updated**: 2024
-**Version**: 1.0.0
