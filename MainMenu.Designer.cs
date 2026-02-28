@@ -18,6 +18,7 @@ namespace AUCASAPRO_26937
 			btnAdmin = new Button();
 			btnStudent = new Button();
 			btnApproval = new Button();
+			btnDashboard = new Button();
 			label1 = new Label();
 			SuspendLayout();
 			// 
@@ -57,6 +58,18 @@ namespace AUCASAPRO_26937
 			btnApproval.UseVisualStyleBackColor = false;
 			btnApproval.Click += btnApproval_Click;
 			// 
+			// btnDashboard
+			// 
+			btnDashboard.BackColor = Color.LightSkyBlue;
+			btnDashboard.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+			btnDashboard.Location = new Point(100, 310);
+			btnDashboard.Name = "btnDashboard";
+			btnDashboard.Size = new Size(250, 50);
+			btnDashboard.TabIndex = 3;
+			btnDashboard.Text = "Statistics Dashboard";
+			btnDashboard.UseVisualStyleBackColor = false;
+			btnDashboard.Click += btnDashboard_Click;
+			// 
 			// label1
 			// 
 			label1.AutoSize = true;
@@ -72,7 +85,8 @@ namespace AUCASAPRO_26937
 			AutoScaleDimensions = new SizeF(8F, 20F);
 			AutoScaleMode = AutoScaleMode.Font;
 			BackColor = SystemColors.ActiveCaption;
-			ClientSize = new Size(450, 350);
+			ClientSize = new Size(450, 400);
+			Controls.Add(btnDashboard);
 			Controls.Add(label1);
 			Controls.Add(btnApproval);
 			Controls.Add(btnStudent);
@@ -87,6 +101,7 @@ namespace AUCASAPRO_26937
 		private Button btnAdmin;
 		private Button btnStudent;
 		private Button btnApproval;
+		private Button btnDashboard;
 		private Label label1;
 	}
 }
