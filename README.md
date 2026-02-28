@@ -4,10 +4,11 @@ A comprehensive Windows Forms application for managing student applications for 
 
 ## 🎯 Overview
 
-This system provides a complete solution for managing student job applications with three main interfaces:
+This system provides a complete solution for managing student job applications with four main interfaces:
 - **Admin Panel**: Position management (Create, Update, Delete)
 - **Student Portal**: Application submission and tracking
 - **Approval System**: Admin review and decision-making
+- **Statistics Dashboard**: Real-time analytics and insights
 
 ## ✨ Features
 
@@ -40,6 +41,16 @@ This system provides a complete solution for managing student job applications w
 - ✅ Reject applications with confirmation dialog
 - ✅ Read-only fields for data integrity
 - ✅ Automatic refresh after approval/rejection
+
+### 4. Statistics Dashboard
+- ✅ Real-time application statistics
+- ✅ Total applications count
+- ✅ Pending, approved, and rejected counts
+- ✅ Total positions available
+- ✅ Applications breakdown by department
+- ✅ Applications breakdown by position
+- ✅ Color-coded statistics panels
+- ✅ Interactive data grids
 
 ## 🛠️ Technical Stack
 
@@ -142,6 +153,12 @@ git clone https://github.com/Pacifique16/Dot-Net-AUCASA-Application-system.git
 3. **Select Application**: Click on an application in the grid
 4. **Approve/Reject**: Click respective button (requires confirmation)
 
+#### Statistics Dashboard
+1. **Launch Application** → Click "Statistics Dashboard"
+2. **View Metrics**: See real-time statistics in color-coded panels
+3. **Analyze Data**: Review applications by department and position
+4. **Monitor System**: Track pending, approved, and rejected applications
+
 ## 🔒 Security Features
 
 - ✅ SQL injection prevention (parameterized queries)
@@ -160,6 +177,8 @@ git clone https://github.com/Pacifique16/Dot-Net-AUCASA-Application-system.git
 - ✅ Dropdown menus for standardized inputs
 - ✅ Confirmation dialogs for critical actions
 - ✅ Success/Error message boxes with icons
+- ✅ Statistics dashboard with real-time analytics
+- ✅ Professional color-coded panels
 
 ## 🐛 Error Handling
 
