@@ -51,13 +51,13 @@ namespace AUCASAPRO_26937
 					label10.Text = positions.ToString();
 					
 					// Applications by Department
-					SqlDataAdapter da1 = new SqlDataAdapter("SELECT department, COUNT(*) as Total FROM CANDIDATES GROUP BY department", conn);
+					SqlDataAdapter da1 = new SqlDataAdapter("SELECT department AS Department, COUNT(*) as Total FROM CANDIDATES GROUP BY department", conn);
 					DataTable dt1 = new DataTable();
 					da1.Fill(dt1);
 					dataGridView1.DataSource = dt1;
 					
 					// Applications by Position
-					SqlDataAdapter da2 = new SqlDataAdapter("SELECT p.position_title, COUNT(c.student_id) as Applications FROM POSITIONS p LEFT JOIN CANDIDATES c ON p.position_id = c.position GROUP BY p.position_title", conn);
+					SqlDataAdapter da2 = new SqlDataAdapter("SELECT p.position_title AS Position, COUNT(c.student_id) as Applications FROM POSITIONS p LEFT JOIN CANDIDATES c ON p.position_id = c.position GROUP BY p.position_title", conn);
 					DataTable dt2 = new DataTable();
 					da2.Fill(dt2);
 					dataGridView2.DataSource = dt2;
