@@ -152,6 +152,7 @@ namespace AUCASAPRO_26937
 			// 
 			this.label11.AutoSize = true;
 			this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+			this.label11.ForeColor = System.Drawing.Color.DarkSlateGray;
 			this.label11.Location = new System.Drawing.Point(20, 220);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(208, 21);
@@ -162,6 +163,7 @@ namespace AUCASAPRO_26937
 			// 
 			this.label12.AutoSize = true;
 			this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+			this.label12.ForeColor = System.Drawing.Color.DarkSlateGray;
 			this.label12.Location = new System.Drawing.Point(450, 220);
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(188, 21);
