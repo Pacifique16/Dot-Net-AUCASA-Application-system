@@ -223,5 +223,3 @@ For technical support or questions:
 
 ---
 
-**Last Updated**: 2024
-**Version**: 1.1.0 - Added Statistics Dashboard
